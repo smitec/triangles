@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pillow = "*"
+jupyter = "*"
+pgpelib = {git = "https://github.com/nnaisense/pgpelib.git"}
+jupyterlab = "*"
+numpy = "*"
+tqdm = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
